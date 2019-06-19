@@ -9,7 +9,7 @@ import tensorflow as tf
 import os
 
 from data_generator import Generate_dataset_low_res_colorizer, Generate_dataset_polishing_network, Generate_dataset_colorizer
-from model import Low_res_colorizer, Background_detector, Polishing_network, Colorizer, Polishing_network_small, Low_res_colorizer_new
+from model import Low_res_colorizer, Polishing_network, Colorizer, Polishing_network_small, Low_res_colorizer_new
 
 def Get_data_count():
     # Count how many training data

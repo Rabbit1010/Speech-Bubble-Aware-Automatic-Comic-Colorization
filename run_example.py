@@ -14,7 +14,8 @@ from model import Low_res_colorizer, Polishing_network_small
 from speech_bubble_segmentation import Speech_Bubble_segmentation
 from data_generator import load_and_preprocess_image
 
-os.mkdir('results')
+if os.path.isdir("results")==False:
+    os.mkdir('results')
 
 # Load models and its pretrained weights
 model_low_res_colorizer = Low_res_colorizer()
