@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Run `run_example.py` to produce all results.
 
 ### Model weights
-Pre-trained model weights can be download [here](https://drive.google.com/file/d/1709kTFSPx8RbWD7vmScYPzPmWLXDpUR6/)
+Pre-trained model weights can be download [here](https://drive.google.com/file/d/13MbuQ2isqSy2dNWCTwrn97FmX7W5TA6q/)
 
 ### Dataset
 The dataset and preprocess methods we used is the same as [Sungmin Kang's paper](https://nips2017creativity.github.io/doc/Consistent_Comic_Colorization.pdf). The dataset we used is the comic *Yumi's Cell* (English version), from the first episode to episode 238. It can be viewed [here](https://www.webtoons.com/en/romance/yumi-cell/list?title_no=478). Since all the images are under the copyright of the artist Donggeon Lee, and we are unable to contact the artist. Please inform us if there is any copyright issues. 
