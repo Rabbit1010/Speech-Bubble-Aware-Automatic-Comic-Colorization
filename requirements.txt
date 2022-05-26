@@ -1,4 +1,4 @@
 opencv-python==4.1.0.25
 imutils==0.5.2
-tensorflow==2.0.0a0
+tensorflow==2.7.2
 beautifulsoup4==4.7.1
